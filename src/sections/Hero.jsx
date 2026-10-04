@@ -12,9 +12,9 @@ const Hero = () => {
           <p className="text-xs font-medium">Trusted by 10k+ people</p>
         </div>
 
-        <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-[95px] max-w-5xl">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-23.75 max-w-5xl">
           Turning imagination into {''}
-          <span className="bg-gradient-to-r from-[#5044E5] to-[#4d8cea] bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-[#5044E5] to-[#4d8cea] bg-clip-text text-transparent">
             digital
           </span>{' '}
           impact.
