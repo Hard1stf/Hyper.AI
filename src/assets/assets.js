@@ -74,7 +74,7 @@ export const teamData = [
   { name: 'MD Amdad Islam', title: 'CEO & founder', image: 'https://avatars.githubusercontent.com/u/195456266?v=4' },
   { name: 'Zahidul Islam Mahim', title: 'Ads manager', image: 'https://avatars.githubusercontent.com/u/92626624?v=4' },
   { name: 'LITAN MOLLA', title: 'Vice president', image: 'https://avatars.githubusercontent.com/u/185999515?v=4' },
-  { name: 'Juiena Parvin', title: 'Marketing & sales', image: 'https://media.licdn.com/dms/image/v2/D4E35AQGl5y_yc0UFPg/profile-framedphoto-shrink_200_200/B4EZbNKlB2HIAY-/0/1747198824940?e=1756562400&v=beta&t=KNEENe2FnrYOLUZMB7_eK-4S_ARBmXJx-QcxFRMUhmA' },
+  { name: 'Hardik Vijeta', title: 'Marketing & sales', image: 'https://media.wallpics.app/thumbnails/2025/03/19/cmx0GrBaSQLjymspgwNx7LLVwrUp1WqKxoDPKb5J.webp' },
   { name: 'Emily Parker', title: 'Content marketer', image: 'https://randomuser.me/api/portraits/women/11.jpg' },
   { name: 'Ryan Mitchell', title: 'Content writer', image: 'https://randomuser.me/api/portraits/men/9.jpg' },
   { name: 'Megan Brooks', title: 'Performance manager', image: 'https://randomuser.me/api/portraits/women/12.jpg' },
