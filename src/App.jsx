@@ -5,6 +5,8 @@ import TrustedBy from './sections/TrustedBy';
 import Services from './sections/Services';
 import OurWork from './sections/OurWork';
 import Teams from './sections/Teams';
+import ContactUs from './sections/ContactUs';
+import { Toaster } from 'react-hot-toast';
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -13,12 +15,14 @@ const App = () => {
   return (
     <>
       <div className="dark:bg-black relative">
+        <Toaster />
         <Navbar theme={theme} setTheme={setTheme} />
         <Hero />
         <TrustedBy />
         <Services />
         <OurWork />
         <Teams />
+        <ContactUs />
       </div>
     </>
   );
