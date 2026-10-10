@@ -8,6 +8,16 @@
   font-weight: 500;
 }
 
+html,
+body,
+a,
+button,
+input,
+textarea,
+select {
+  cursor: none;
+}
+
 @theme {
   --color-primary: #5044e5;
 }
