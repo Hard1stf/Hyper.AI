@@ -1,6 +1,7 @@
 import assets from '../assets/assets';
 import ServicesCard from '../components/Services-card';
 import Title from '../components/Title';
+import { motion } from 'motion/react';
 
 const Services = () => {
   const servicesData = [
@@ -31,7 +32,11 @@ const Services = () => {
 
   return (
     <>
-      <section
+      <motion.section
+        initial="hidden"
+        whileInView="visible"
+        transition={{ staggerChildren: 0.2 }}
+        viewport={{ once: true }}
         id="services"
         className="relative flex flex-col items-center gap-7 px-4 sm:px-14 lg:px-24 xl:p-40 pt-30 text-gray-700 dark:text-white"
       >
@@ -53,7 +58,7 @@ const Services = () => {
             <ServicesCard key={i} service={service} index={i} />
           ))}
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };
